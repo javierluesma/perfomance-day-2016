@@ -14,7 +14,6 @@ https://jsonplaceholder.typicode.com
 
 ###Run
 
-* npm install -g json-server -p 5000
 * npm install
-* json-server --watch db.json
-* npm start
+* json-sever db.json -p 5000 (in a terminal window)
+* npm start (in another terminal window)
