@@ -17,3 +17,5 @@ https://jsonplaceholder.typicode.com
 * npm install
 * json-sever db.json -p 5000 (in a terminal window)
 * npm start (in another terminal window)
+
+### CHECK THIS FOR MIGRATION https://github.com/johnpapa/angular2-tour-of-heroes
