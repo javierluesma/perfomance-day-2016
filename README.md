@@ -14,7 +14,12 @@ https://jsonplaceholder.typicode.com
 
 ###Run
 
+<<<<<<< HEAD
 * npm install -g json-server
+=======
+>>>>>>> d887ead558064f9ed28c135416e51adfefb611f7
 * npm install
-* json-server --watch db.json
-* npm start
+* json-sever db.json -p 5000 (in a terminal window)
+* npm start (in another terminal window)
+
+### CHECK THIS FOR MIGRATION https://github.com/johnpapa/angular2-tour-of-heroes
