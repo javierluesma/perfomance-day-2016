@@ -1,5 +1,11 @@
 h2 { color: #444; font-weight: lighter; }
-body { margin: 2em; }
 body, input[text], button { color: #888; font-family: 'Trebuchet MS', Cambria, Georgia; }
 button { padding: 0.2em; font-size: 14px}
 * { font-family: 'Trebuchet MS'; }
+
+.app-content {
+    padding: 20px;
+}
+.app-content md-card {
+    margin: 20px;
+}
