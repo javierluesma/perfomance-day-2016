@@ -17,7 +17,7 @@ export class Match {
     "local_abbr":string;
     "visitor_abbr":string;
     "local_shield":string;
-    "visitor_shield":string,
+    "visitor_shield":string;
     "date":string;
     "hour":string;
     "minute":string;
