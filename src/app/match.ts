@@ -1,5 +1,5 @@
 
-export class matchchannels {
+export class Matchchannels {
     "id":string;
     "name":string;
     "image":string
@@ -13,19 +13,19 @@ export class Match {
     team1: string;
     team2: string;
     
-    "competition_name":string;
-    "local_abbr":string;
-    "visitor_abbr":string;
-    "local_shield":string;
-    "visitor_shield":string,
-    "date":string;
-    "hour":string;
-    "minute":string;
-    "result":string;
-    "live_minute":string;
-    "status":number  ;
-    "winner":string;
-    "channels":matchchannels
+    competition_name:string;
+    local_abbr:string;
+    visitor_abbr:string;
+    local_shield:string;
+    visitor_shield:string;
+    date:string;
+    hour:string;
+    minute:string;
+    result:string;
+    live_minute:string;
+    status:number  ;
+    winner:string;
+    channels = new Matchchannels()
 
 /*
     "competition_name":"Primera Divisi\u00f3n";
