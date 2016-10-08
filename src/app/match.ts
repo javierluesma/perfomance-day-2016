@@ -12,7 +12,6 @@ export class Match {
     visitor: string;
     team1: string;
     team2: string;
-    
     competition_name:string;
     local_abbr:string;
     visitor_abbr:string;
