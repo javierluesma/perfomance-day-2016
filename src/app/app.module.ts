@@ -7,25 +7,27 @@ import './rxjs-extensions';
 import { AppComponent } from './app.component';
 import { routing, routedComponents } from './app.routing';
 import { NavBarComponent } from './navbar.component';
-import { HomeComponent } from './home.component';
+import { MatchesContainerComponent } from './matches-container.component';
 import { UsersComponent } from './users.component';
 import { UserService } from './users.service';
 import { UserFormComponent } from './user-form.component';
 import { NotFoundComponent } from './not-found.component';
 import { SpinnerComponent } from './spinner.component';
 import { PostsComponent } from './posts.component';
+import { MyDatePickerModule } from 'mydatepicker';
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     routing,
-    HttpModule
+    HttpModule,
+    MyDatePickerModule
   ],
   declarations: [
     AppComponent,
     NavBarComponent,
-    HomeComponent,
+    MatchesContainerComponent,
     UsersComponent,
     UserFormComponent,
     NotFoundComponent,

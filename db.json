@@ -35854,37 +35854,6 @@
         "catchPhrase": "Centralized empowering task-force",
         "bs": "target end-to-end models"
       }
-    },
-    {
-      "name": "gsdfgsd",
-      "email": "sdfgsd@jfl.com",
-      "phone": "sdfgsd",
-      "address": {
-        "street": "sdfgsd",
-        "suite": "sdfgsd",
-        "city": "sdfgsd",
-        "zipcode": "sdfgsd"
-      },
-      "id": 11
-    },
-    {
-      "address": {
-        "street": "test",
-        "suite": "test",
-        "city": "test",
-        "zipcode": "tst"
-      },
-      "name": "test",
-      "email": "test",
-      "id": 15,
-      "phone": "test"
-    },
-    {
-      "address": {},
-      "name": "AAAAAAAAAA",
-      "email": "aaaaaaaaaaaaaaaaaaaaaaaa",
-      "phone": "aaaaaaaaa",
-      "id": 16
     }
   ],
   "todos": [
