@@ -4,7 +4,7 @@ import {ActivatedRoute, Router, Params} from '@angular/router';
 //import { Validators } from '@angular/forms';
 //import {User} from './user';
 //import {UserService} from './users.service';
-import {Match,Matchchannels} from './match';
+import {Match, Matchchannels} from './match';
 
 @Component({
     templateUrl: 'match.component.html',
@@ -28,12 +28,14 @@ export class MatchComponent implements OnInit {
         this.match.local_shield="http:\/\/thumb.resfu.com\/img_data\/escudos\/medium\/4235.jpg?size=60x&ext=png&lossy=1&1";
         this.match.visitor_shield="http:\/\/thumb.resfu.com\/img_data\/escudos\/medium\/1535.jpg?size=60x&ext=png&lossy=1&1";
     
-    //"date":"2016\/10\/01";
-    //"hour":"13";
+    this.match.date = "2016\/10\/01";
+    this.match.hour = "13";
+    this.match.minute = "00";
+    
     //"minute":"00";
     this.match.result="0-1";
     this.match.live_minute="23";
-    this.match.status=0;
+    this.match.status=1;
     //"winner":"710098";
 /*
     team1: string;
@@ -73,17 +75,5 @@ export class MatchComponent implements OnInit {
 */
     }
 
-  /*  save() {
-        if (this.id) {
-            this._userService.editUser(this.user, this.id.toString())
-                .then(x => {
-                    this._router.navigate(['/users']);
-                });
-        } else {
-            this._userService.addUser(this.user)
-                .then(x => {
-                    this._router.navigate(['/users']);
-                });
-        }
-    }*/
+
 }

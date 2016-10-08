@@ -2,11 +2,20 @@
 <div class="row">
     <div class="col-md-6 well">
         <fieldset>
-            <legend>Match</legend>
+            <legend><label>{{match.local}}</label> - <label>{{match.visitor}}</label></legend>
             <div class="form-group">
-                <label>Match</label>
-                <output id="name" type="text" class="form-control" [(ngModel)]="match.local" required name="name" #name="ngModel"> -
-                <output id="name" type="text" class="form-control" [(ngModel)]="match.visitor" required name="name" #name="ngModel">
+                <img src="{{match.local_shield}}" alt="...">
+                <label>{{match.local}}</label>
+                
+                <label *ngIf="match.status>=0">{{match.result}}</label>
+                <label *ngIf="match.status==-1">{{match.hour}}:{{match.minute}}</label>
+                <label>{{match.visitor}}</label>
+                <img src="{{match.visitor_shield}}" alt="...">
+                <br>
+                <br>
+                <label *ngIf="match.status==-1">{{match.date}}</label>
+                <label *ngIf="match.status==0">Live {{match.live_minute}}'</label>
+                <label *ngIf="match.status==1">FT</label>
             </div>
             
         </fieldset>
